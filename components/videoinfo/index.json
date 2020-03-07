@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "i-notice-bar": "/miniprogram_npm/dist/notice-bar/index"
+  }
+}

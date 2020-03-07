@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/live/index",
+    "pages/pusher/pusher",
+    "pages/my/my",
+    "pages/message/message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人人咖",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "/images/tab/book.png",
+        "selectedIconPath": "/images/tab/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/live/index",
+        "text": "直播",
+        "iconPath": "/images/tab/book.png",
+        "selectedIconPath": "/images/tab/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/pusher/pusher",
+        "text": "",
+        "iconPath": "/images/tab/classic.png",
+        "selectedIconPath": "/images/tab/classic@highlight.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "/images/tab/book.png",
+        "selectedIconPath": "/images/tab/book@highlight.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/tab/book.png",
+        "selectedIconPath": "/images/tab/book@highlight.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

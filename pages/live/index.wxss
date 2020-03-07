@@ -1,0 +1,10 @@
+.container
+{
+    padding: 0 10rpx;
+    width: 100%;
+}
+
+/* .container water-flow
+{
+  margin-bottom: 150rpx;
+} */

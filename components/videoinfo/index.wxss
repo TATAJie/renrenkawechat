@@ -1,0 +1,28 @@
+.comtainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.head-content
+{
+  line-height: 40rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+  color: white;
+}
+
+.content
+{
+  line-height: 30rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: white;
+}
+.noticeBar
+{
+  width: 90%;
+}

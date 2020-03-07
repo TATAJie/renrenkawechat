@@ -1,0 +1,5 @@
+<view class="container">
+<slot name="img"></slot>
+<button hidden="{{hideButton}}" open-type="{{type}}" bindgetuserinfo="getUserInfo" class="user-button" plain="{{true}}">
+</button>
+</view>

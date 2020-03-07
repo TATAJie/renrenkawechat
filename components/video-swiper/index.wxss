@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.video-swiper {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.video_item {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.cover-notice-view {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+}
+
+.videoinfo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 650rpx;
+}
+
+.videocontrol {
+  position: absolute;
+  right: 10rpx;
+  bottom: 0;
+}
+
+.button-container
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-play
+{
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.preImage {
+  height: 100%;
+  width: 100%;
+}

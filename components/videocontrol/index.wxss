@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.headImg {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-bottom: 30rpx;
+  background-color: coral;
+}
+
+.controlItem {
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.img {
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: 10rpx;
+}
+
+.num {
+  font-size: 22rpx;
+  color: white;
+  line-height: 22rpx;
+}
+
+.musicPic {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-bottom: 40rpx;
+  background-color: darkseagreen;
+  animation-fill-mode: forwards;
+  -webkit-animation: rotation 8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.running {
+  animation-play-state: running;
+}
+
+.paused {
+  animation-play-state: paused;
+}

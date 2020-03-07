@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+      "v-videoinfo": "/components/videoinfo/index",
+      "v-videocontrol": "/components/videocontrol/index"
+    }
+}

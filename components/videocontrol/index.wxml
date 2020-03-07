@@ -1,0 +1,16 @@
+<view class="container">
+  <image class="headImg" src="https://pic2.zhimg.com/80/v2-3b266295237b93bd9132c95a4c028be0_720w.jpg" />
+  <view class="controlItem">
+    <image class="img" src="/images/heart.png"/>
+    <text class="num">110.6w</text>
+  </view>
+  <view class="controlItem">
+    <image class="img" src="/images/message.png"/>
+    <text class="num">110.6w</text>
+  </view>
+  <view class="controlItem">
+    <image class="img" src="/images/share.png"/>
+    <text class="num">110.6w</text>
+  </view>
+  <image class="musicPic {{playing?'running':'paused'}}" src="http://pic4.zhimg.com/50/v2-236c74303ee2e7da84cab2b21b8ef30b_hd.jpg" />
+</view>

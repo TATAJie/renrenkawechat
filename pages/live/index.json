@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "water-flow": "../../miniprogram_npm/lin-ui/water-flow",
+    "water-flow-item":"../../components/waterflow-item/index",
+    "l-loadmore": "/miniprogram_npm/lin-ui/loadmore/index"
+  }
+}
