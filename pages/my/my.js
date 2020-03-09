@@ -1,5 +1,7 @@
 // pages/my/my.js
+import { baseDataBev } from "../../components/behaviors/baseData.js"
 Page({
+  behaviors: [baseDataBev],
 
   /**
    * 页面的初始数据

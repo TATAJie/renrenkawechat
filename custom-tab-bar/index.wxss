@@ -1,6 +1,5 @@
 .tab-bar {
   position: relative;
-  height: 110rpx;
   width: 750rpx;
   background: #fff;
   display: flex;

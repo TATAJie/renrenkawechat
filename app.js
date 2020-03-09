@@ -2,6 +2,10 @@
 App({
   onLaunch: function() {
     let systemInfo = wx.getSystemInfoSync()
+    if (systemInfo.model.indexOf('iPhone X') != -1) {　　//XS,XR,XS MAX均可以适配,因为indexOf()会将包含'iPhone X'的字段都查出来
+      this.globalData.isIpx = true
+    }
+    this.globalData.systemInfo = systemInfo;
     // px转换到rpx的比例
     let pxToRpxScale = 750 / systemInfo.windowWidth;
     // 状态栏的高度
@@ -17,7 +21,11 @@ App({
     // 屏幕的宽度
     this.globalData.screenWidth = systemInfo.screenWidth * pxToRpxScale
     // 底部tabBar的高度
-    this.globalData.tabBarHeight = this.globalData.screenHeight - this.globalData.statusBarHeight - this.globalData.navigationHeight - this.globalData.windowHeight
+    this.globalData.tabBarHeight = 49 * pxToRpxScale;
+    if (this.globalData.isIpx)
+    {
+      this.globalData.tabBarHeight = (49 + 34) * pxToRpxScale;
+    }
   },
   globalData: {
     systemInfo: null,
@@ -28,5 +36,6 @@ App({
     statusBarHeight: null, //状态栏高度
     navigationHeight: null, //导航栏高度
     tabBarHeight: null, // 底部tabBar的高度
+    isIpx:false,
   }
 })

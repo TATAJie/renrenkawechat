@@ -1,1 +1,4 @@
+
+<scroll-view scroll-y="{{true}}" class="page {{modalName!=null?'show':''}}" style="height: {{contentHeight}}rpx;">
 <about></about>
+</scroll-view>

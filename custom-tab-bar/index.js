@@ -1,5 +1,7 @@
+const app = getApp();
 Component({
   data: {
+    tabBarHeight: app.globalData.tabBarHeight,
     show: true,
     selected: 0,
     color: '#707070',
