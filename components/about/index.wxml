@@ -1,9 +1,9 @@
 <scroll-view scroll-y class="scrollPage">
   <view class="UCenter-bg">
     <v-button class="avatar-button" bind:getuserinfo="getUserInfo" type="getUserInfo" hideButton="{{authorized}}" imgUrl="{{authorized?userInfo.avatarUrl:'/images/my.png'}}">
-    <image class="avatarImg" slot="img" src="{{authorized?userInfo.avatarUrl:'/images/my.png'}}"></image>
+      <image class="avatarImg" slot="img" src="{{authorized?userInfo.avatarUrl:'/images/my.png'}}"></image>
     </v-button>
-    
+
     <view class="text-xl">{{authorized?userInfo.nickName:'未登录'}}
     </view>
     <view class="margin-top-sm">
@@ -14,18 +14,15 @@
   <view class="padding flex text-center text-grey bg-white shadow-warp">
     <view class="flex flex-sub flex-direction solid-right">
       <view class="text-xxl text-orange">{{visitTotal}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-attentionfill"></text> 观看</view>
+      <view class="margin-top-sm">获赞</view>
     </view>
     <view class="flex flex-sub flex-direction solid-right">
       <view class="text-xxl text-blue">{{starCount}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-favorfill"></text> 点赞</view>
+      <view class="margin-top-sm">粉丝</view>
     </view>
     <view class="flex flex-sub flex-direction">
       <view class="text-xxl text-green">{{forksCount}}</view>
-      <view class="margin-top-sm">
-        <text class="cuIcon-fork"></text> 代理</view>
+      <view class="margin-top-sm">关注</view>
     </view>
   </view>
   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">

@@ -1,4 +1,4 @@
-<view wx:if="{{show}}" class="tab-bar tab-bar-{{position}}" style='background: {{backgroundImg? "url("+ backgroundImg+ ")" : backgroundColor}};height:{{tabBarHeight}}'>
+<view wx:if="{{show}}" class="tab-bar tab-bar-{{position}}" style='background: {{backgroundImg? "url("+ backgroundImg+ ")" : backgroundColor}};height:{{tabBarHeight}}rpx;'>
   <view class="tab-bar-border" style="background: {{borderStyle}}"></view>
   <view wx:for="{{list}}" wx:for-index="idx" wx:key="index" class="tab-bar-item {{item.style === 'circle' ? 'circle': ''}}" data-path="{{item.pagePath}}" data-index="{{idx}}" bindtap="switchTab">
     <view wx:if="{{item.style === 'circle'}}" class="item-circle"></view>
