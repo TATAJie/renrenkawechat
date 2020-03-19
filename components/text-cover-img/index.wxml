@@ -1,0 +1,4 @@
+<view class="container">
+<image class="level-img" src="{{url}}"></image>
+  <text class="level-num">{{content}}</text>
+</view>

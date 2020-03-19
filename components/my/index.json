@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-button": "/components/image-button/index",
+    "v-image-text": "/components/image-text/index",
+    "v-text-cover-img" : "/components/text-cover-img/index"
+  }
+}

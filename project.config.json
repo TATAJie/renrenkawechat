@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "pages/pusher/pusher",
 					"pathName": "pages/pusher/pusher",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/my",
+					"pathName": "pages/my/my",
 					"scene": null
 				}
 			]

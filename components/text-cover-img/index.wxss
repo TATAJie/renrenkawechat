@@ -1,0 +1,21 @@
+.container
+{
+  position: relative;
+}
+
+.level-img
+{
+  width: 81.6rpx;
+  height: 38.4rpx;
+}
+
+.level-num
+{
+  color: white;
+  position: absolute;
+  left: 38rpx;
+  top: 0;
+  text-align: center;
+  font-size: 22rpx;
+  line-height: 38.4rpx;
+}
