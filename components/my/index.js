@@ -12,7 +12,8 @@ Component({
    */
   data: {
     authorized: false,
-    userInfo: {}
+    userInfo: {},
+    tabs: ["直播", "视频", "动态", "商品", "推广"],
   },
   attached() {
     this.userAuthorized();

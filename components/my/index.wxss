@@ -142,7 +142,7 @@
 
 .vip {
   width: 100%;
-  height: 500rpx;
+  height: 1500rpx;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: white;
@@ -150,11 +150,67 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .vip-img {
   margin-top: 22rpx;
   width: 716rpx;
   height: 162rpx;
+}
+
+.van-tabs {
+  width: 100%;
+}
+
+.special-tab {
+  transition: all 0.25s ease-in-out;
+}
+
+.special-tab-active {
+  font-size: 1.35em !important;
+}
+
+.content-bg-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  background-color: red;
+  width: 48.5%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  height: 500rpx;
+}
+
+.playNum {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 48.5%;
+  bottom: 2px;
+  background:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
+.playNum-avatar {
+  margin-left: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+
+.playNum-nick {
+  color: white;
+  font-size: 13;
+  margin-left: 10rpx;
+}
+
+.playNum-num {
+  color: white;
+  font-size: 13;
+  position: absolute;
+  right: 10rpx;
 }
