@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-grid": "/third/vant/grid/index",
+    "v-grid-item": "/third/vant/grid-item/index"
+  }
+}

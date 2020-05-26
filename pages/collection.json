@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "custom-tabbar": "/components/custom-tabbar/custom-tabbar",
+    "card-list":"/components/questionCard/index",
+    "l-segment": "/third/linui/segment/index",
+    "l-segment-item": "/third/linui/segment-item/index"
+  }
+}

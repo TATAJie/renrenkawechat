@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "custom-tabbar": "/components/custom-tabbar/custom-tabbar",
+    "v-button":"/components/authorize/authorize",
+    "swiper-classify":"/components/swiper-classify/index",
+    "l-search-bar":"/third/linui/search-bar/index"
+  },
+  "enablePullDownRefresh":false
+}

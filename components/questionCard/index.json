@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-card": "/third/linui/card/index",
+    "l-icon": "/third/linui/icon/index",
+    "l-tag": "/third/linui/tag/index"
+  }
+}

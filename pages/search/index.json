@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-search-bar": "/third/linui/search-bar/index",
+    "l-icon": "/third/linui/icon/index",
+    "van-cell": "/third/vant/cell/index"
+  }
+}

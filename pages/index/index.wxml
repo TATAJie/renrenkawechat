@@ -1,6 +1,0 @@
-<view class="root" style="height: {{contentHeight}}rpx;">
-  <!-- <l-loadmore show="{{true}}" type="loading" size="28" line="{{true}}" color="#333">
-  </l-loadmore> -->
-  <video-swiper video-list="{{videoList}}" bindplay="onPlay" bindpause="onPause" bindtimeupdate="onTimeUpdate" bindended="onEnded" binderror="onError" bindwaiting="onWaiting" bindprogress="onProgress" bindloadedmetadata="onLoadedMetaData" bindchange="swiperEnded"
-  />
-</view>

@@ -1,0 +1,40 @@
+<view class="container" style="height:{{ScreenHeight}}rpx">
+
+  <cu-custom bgColor="bg-green">
+    <view slot="content">人人咖</view>
+  </cu-custom>
+  <l-segment class="segment" style="width:100%;top:{{CustomBar}}rpx;" l-class-header-line="header-line" even="{{false}}" scrollable animated-for-line="{{true}}" bind:linchange="changeTabs"  active="{{ active }}">
+    <l-segment-item tab="精选" key="one">
+      <view class="tab-content">精选</view>
+    </l-segment-item>
+    <l-segment-item tab="居家生活" key="two">
+      <view class="tab-content">居家生活</view>
+    </l-segment-item>
+    <l-segment-item tab="美食厨房" key="three">
+      <view class="tab-content">美食厨房</view>
+    </l-segment-item>
+    <l-segment-item tab="美妆护肤" key="four">
+      <view class="tab-content">美妆</view>
+    </l-segment-item>
+    <l-segment-item tab="运动女装" key="five">
+      <view class="tab-content">运动女装</view>
+    </l-segment-item>
+    <l-segment-item tab="家用电器" key="six">
+      <view class="tab-content">家用电器</view>
+    </l-segment-item>
+    <l-segment-item tab="厨房用品" key="seven">
+      <view class="tab-content">厨房用品</view>
+    </l-segment-item>
+    <l-segment-item tab="卫生清洁" key="eight">
+      <view class="tab-content">卫生清洁</view>
+    </l-segment-item>
+    <l-segment-item tab="客厅" key="123" />
+    <l-segment-item tab="卧室" key="456" />
+    <l-segment-item tab="厨房" key="789" />
+    <l-segment-item tab="浴室" key="1011" />
+  </l-segment>
+  <view class="basics">
+    <card-list></card-list>
+  </view>
+  <custom-tabbar class="custom-tabbar"></custom-tabbar>
+</view>

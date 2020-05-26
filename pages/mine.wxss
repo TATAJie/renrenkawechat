@@ -1,0 +1,51 @@
+.custom-tabbar
+{
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.basics {
+  flex: 1;
+}
+
+.user
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headpic
+{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.userinfo
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.list
+{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 30rpx;
+}
+
+.l-class
+{
+  padding-left: 30rpx;
+}
+.l-right-class
+{
+  margin-right: 30rpx;
+}

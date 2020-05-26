@@ -1,54 +1,43 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/live/index",
-    "pages/pusher/pusher",
-    "pages/my/my",
-    "pages/message/message"
+    "pages/index",
+    "pages/message",
+    "pages/add",
+    "pages/collection",
+    "pages/mine",
+    "pages/login/index",
+    "pages/search/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "人人咖",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f1f1f1"
   },
-  "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "custom": true,
-    "color": "#000000",
-    "selectedColor": "#000000",
-    "backgroundColor": "#000000",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "发现",
-        "iconPath": "/images/tab/book.png",
-        "selectedIconPath": "/images/tab/book@highlight.png"
+        "pagePath": "pages/index",
+        "text": "首页"
       },
       {
-        "pagePath": "pages/live/index",
-        "text": "直播",
-        "iconPath": "/images/tab/book.png",
-        "selectedIconPath": "/images/tab/book@highlight.png"
-      },
-      {
-        "pagePath": "pages/pusher/pusher",
-        "text": "",
-        "iconPath": "/images/tab/classic.png",
-        "selectedIconPath": "/images/tab/classic@highlight.png"
-      },
-      {
-        "pagePath": "pages/message/message",
-        "iconPath": "/images/tab/book.png",
-        "selectedIconPath": "/images/tab/book@highlight.png",
+        "pagePath": "pages/message",
         "text": "消息"
       },
       {
-        "pagePath": "pages/my/my",
-        "iconPath": "/images/tab/book.png",
-        "selectedIconPath": "/images/tab/book@highlight.png",
+        "pagePath": "pages/collection",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/mine",
         "text": "我的"
       }
     ]
-  }
+  },
+  "usingComponents": {
+    "cu-custom": "/third/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
 }

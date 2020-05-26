@@ -1,7 +1,0 @@
-<scroll-view class="container" style="height: {{contentHeight}}rpx;" scroll-y = "true" bindscrolltoupper="upper" bindscrolltolower="lower">
-<l-loadmore show="{{true}}" type="loading" size="28" line="{{true}}" color="#333" wx:if="{{uppering}}">
-  </l-loadmore>
-<water-flow class="water-flow" generic:l-water-flow-item="water-flow-item" column-gap="2rpx"/>
-<l-loadmore show="{{true}}" type="loading" size="28" line="{{true}}" color="#333" wx:if="{{lowering}}">
-  </l-loadmore>
-</scroll-view>

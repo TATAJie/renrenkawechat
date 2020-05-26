@@ -1,5 +1,0 @@
-<view class="container i-class">
-  <slot name="ahead"></slot>
-  <text class="content">{{content}}</text>
-  <slot name="behind"></slot>
-</view>

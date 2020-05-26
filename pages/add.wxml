@@ -1,0 +1,4 @@
+<cu-custom bgColor="bg-green" isCustom="{{true}}">
+  <view slot="content">详情页</view>
+</cu-custom>
+<view class="container" style="height:750rpx" bindtap="userTouch"></view>

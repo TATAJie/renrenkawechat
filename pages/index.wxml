@@ -1,0 +1,20 @@
+<view class="container">
+
+  <cu-custom bgColor="bg-green">
+    <view slot="content">人人咖</view>
+  </cu-custom>
+
+  <view class="search-view">
+
+    <view class="search-cover" catchtap="tapSearch"></view>
+    <l-search-bar shape="circle" placeholder="请输入搜索关键词" bind:linchange="blur" show-cancel="{{false}}">
+    </l-search-bar>
+
+  </view>
+
+  <view class="basics">
+    <swiper-classify />
+  </view>
+  <custom-tabbar class="custom-tabbar"></custom-tabbar>
+
+</view>

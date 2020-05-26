@@ -1,0 +1,16 @@
+<swiper indicator-dots="{{true}}" circular="{{true}}">
+  <swiper-item>
+    <v-grid border="{{false}}">
+      <block wx:for="{{8}}">
+        <v-grid-item icon="/images/icon_short.png" text="文字" bind:click="gridItemClick" data-index="{{index}}"/>
+      </block>
+    </v-grid>
+  </swiper-item>
+  <swiper-item>
+    <v-grid border="{{false}}">
+      <block wx:for="{{8}}">
+        <v-grid-item icon="/images/icon_short.png" text="文字" />
+      </block>
+    </v-grid>
+  </swiper-item>
+</swiper>

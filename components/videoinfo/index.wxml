@@ -1,7 +1,0 @@
-<view class="comtainer">
-  <text class="head-content">@索尼音乐娱乐</text>
-  <text class="content">美国创作歌手#sashasloan热单#dancingwithyourghost不插电版更让人沉醉❤</text>
-  <i-notice-bar class="noticeBar" backgroundcolor="rgba(0, 0, 0, 0)" loop="{{true}}" speed="{{playing?'1000':'0'}}" icon="icon-douyintexiao" color='#ffffff' size="18">
-    2021年世界杯,将于6月14日至7月15日举行
-  </i-notice-bar>
-</view>

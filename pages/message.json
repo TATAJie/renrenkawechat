@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "custom-tabbar": "/components/custom-tabbar/custom-tabbar",
+    "van-dropdown-menu": "/third/vant/dropdown-menu/index",
+    "van-dropdown-item": "/third/vant/dropdown-item/index"
+  }
+}

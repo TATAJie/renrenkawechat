@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "about":"../../components/about/index",
-    "my":"../../components/my/index"
-  },
-  "navigationStyle": "custom"
-}

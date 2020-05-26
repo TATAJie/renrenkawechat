@@ -1,0 +1,35 @@
+<view class="container" style="height:{{ScreenHeight}}rpx">
+
+  <cu-custom bgColor="bg-green">
+    <view slot="content">人人咖</view>
+  </cu-custom>
+
+  <view class="basics">
+
+    <view class="user">
+
+      <view class="headpic">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+
+      <view class="userinfo">
+        <open-data type="userNickName" lang="zh_CN"></open-data>
+        <open-data type="userGender" lang="zh_CN"></open-data>
+      </view>
+    </view>
+    <view class="list">
+      <l-list title="我的关注" icon="setting" l-class	="l-class" l-right-class="l-right-class"/>
+      <l-list title="我的流水" icon="setting" l-class	="l-class"  l-right-class="l-right-class"/>
+    </view>
+
+    <view class="list">
+      <l-list title="投诉建议" icon="setting" l-class	="l-class"  l-right-class="l-right-class"/>
+      <l-list title="关于我们" icon="setting" l-class	="l-class"  l-right-class="l-right-class"/>
+      <l-list title="设置"  icon="setting" l-class	="l-class" l-right-class="l-right-class"/>
+    </view>
+  </view>
+
+  <view class='cu-tabbar-height'></view>
+
+  <custom-tabbar class="custom-tabbar"></custom-tabbar>
+</view>

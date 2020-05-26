@@ -1,0 +1,4 @@
+<view class="container">
+<button class="authorizeBtn" catch:getuserinfo="getUserInfo" open-type="getUserInfo" hidden="{{iShidden}}">
+  授权</button>
+</view>

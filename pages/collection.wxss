@@ -1,0 +1,23 @@
+.custom-tabbar
+{
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.basics {
+  flex: 1;
+  padding-top: 80rpx;
+  padding-bottom: calc(100rpx + env(safe-area-inset-bottom) / 2);
+}
+
+.segment
+{
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+}

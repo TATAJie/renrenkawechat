@@ -1,0 +1,20 @@
+.custom-tabbar
+{
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.basics {
+  flex: 1;
+  background-color: navajowhite;
+}
+
+.dropdown-item
+{
+  font-size: 30rpx !important;
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "custom-tabbar": "/components/custom-tabbar/custom-tabbar",
+    "van-row": "/third/vant/row/index",
+    "van-col": "/third/vant/col/index",
+    "van-grid": "/third/vant/grid/index",
+    "van-grid-item": "/third/vant/grid-item/index",
+    "l-list": "/third/linui/list/index"
+  }
+}

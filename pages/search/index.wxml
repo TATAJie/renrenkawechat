@@ -1,0 +1,33 @@
+<view class='container'>
+  <cu-custom bgColor="bg-green" isBack="{{true}}">
+    <view slot="content">搜索</view>
+  </cu-custom>
+  <view class="search-view" style="top:{{CustomBar}}">
+
+    <l-search-bar value="{{ inputValue }}" shape="circle" placeholder="请输入搜索关键词" bind:linchange="blur" bind:linclear="clean" bind:linconfirm="confirm" show-cancel="{{false}}">
+    </l-search-bar>
+    </view>
+
+  <view class='flex space_between align_center search_title' wx:if="{{!inputValue}}">
+    <view>
+      搜索历史
+    </view>
+    <l-icon name="delete" size="36" color="#74787C" wx:if="{{list.length!=0}}" catchtap='remove'/>
+  </view>
+
+  <view class='list'>
+    <view class="no-key" wx:if="{{list.length==0}}">暂无搜索记录</view>
+    <view class="key" wx:for="{{list}}" wx:key="" bindtap='searchName' data-value='{{item}}'>{{item}}</view>
+  </view>
+
+  <view class='search_result' wx:if="{{inputValue}}" style="top:{{CustomBar + 88}}rpx;">
+  <scroll-view class="result-scroll" scroll-y="true">
+    <!-- <view wx:for="{{resultList}}" wx:key="" bindtap='detail' data-id='{{item.projectCode}}'>
+      {{item.projectName}}
+    </view> -->
+    <van-cell wx:for="{{resultList}}" wx:key="" title="{{item.projectName}}" value="" ata-id='{{item.projectCode}}'/>
+  </scroll-view>
+    
+    <view class='no_more' wx:if="{{resultList.length==0}}">暂无相关内容</view>
+  </view>
+</view>
